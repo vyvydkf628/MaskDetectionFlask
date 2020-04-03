@@ -1,0 +1,3 @@
+0 Face
+1 Masked face
+2 Masked people

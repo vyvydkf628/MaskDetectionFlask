@@ -52,9 +52,9 @@ def detectMask():
     # run the inference
     prediction = model.predict(data)
     result = {
-        "no mask" :str(round(prediction[0][0],10)),
-        "mask" : str(round(prediction[0][1],10)),
-        "background": str(round(prediction[0][2],10)) 
+        "no mask" :str(round(prediction[0][0],4)),
+        "mask" : str(round(prediction[0][1],4)),
+        "background": str(round(prediction[0][2],4)) 
     }
     return result
 
